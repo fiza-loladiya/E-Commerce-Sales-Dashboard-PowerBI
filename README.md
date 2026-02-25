@@ -4,7 +4,9 @@
 This project is an end-to-end **E-Commerce Sales Dashboard** built in **Power BI** using data stored in **MS SQL Server**.  
 The dashboard helps stakeholders track **Year-To-Date (YTD)** performance, compare it with **Previous Year-To-Date (PYTD)**, and identify trends across **categories, regions, states, products, and shipping types**.
 
+## Dashboard Overview
 
+![Overview](overview.png)
 
 ## Problem Statement
 A US-based e-commerce company needed a single interactive dashboard to:
@@ -120,7 +122,3 @@ YTD Sales by shipping mode with % contribution to understand shipping preference
 
 
 
-
-## Author
-**Fiza**  
-(Data Analyst Portfolio Project)
