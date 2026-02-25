@@ -4,13 +4,13 @@
 This project is an end-to-end **E-Commerce Sales Dashboard** built in **Power BI** using data stored in **MS SQL Server**.  
 The dashboard helps stakeholders track **Year-To-Date (YTD)** performance, compare it with **Previous Year-To-Date (PYTD)**, and identify trends across **categories, regions, states, products, and shipping types**.
 
-### Quick Summary
+## Quick Summary
 This dashboard tracks **YTD vs PYTD** performance and highlights **YoY trends**, enabling stakeholders to identify profit/margin changes, category winners/losers, regional performance, and shipping contribution for faster decisions.
 
 ## Dashboard Overview
 ![E-Commerce Sales Dashboard](Overview.png)
 
-### Key Business Snapshot (from dashboard)
+## Key Business Snapshot (from dashboard)
 - **YTD Sales:** $11.53M (YoY: -0.83%)
 - **YTD Profit:** $1.34M (YoY: +4.50%)
 - **YTD Quantity:** 107.2K (YoY: -7.29%)
@@ -38,7 +38,9 @@ The dashboard was designed to answer these core questions:
 - Which **Shipping Type** contributes the most to sales?
 
 
+
 ## Data & Tools Used
+
 ### Data Source
 - **MS SQL Server** (database used as the source for Power BI)
 
@@ -49,12 +51,13 @@ The dashboard was designed to answer these core questions:
 - **Data Modeling** (relationships + date table)
 
 
+
 ## Approach (End-to-End Workflow)
 1. Imported and stored data in **MS SQL Server**
 2. Connected **Power BI** to SQL Server (data import)
 3. Cleaned and transformed data using **Power Query**
-   - Fixed data types
-   - Handled missing values where needed
+   - Fixed data types  
+   - Handled missing values where needed  
    - Standardized columns for reporting
 4. Built a clean **data model**
    - Fact table for transactions
@@ -83,24 +86,14 @@ The dashboard was designed to answer these core questions:
 - Monthly Trend (sparkline-style trend visualization)
 
 
+
 ## Dashboard Features
-1) **KPI Summary + Trend**  
-Quick view of business health with YoY indicators and monthly performance trend.
-
-2) **Category Performance**  
-Category-wise comparison using **YTD vs PYTD** and **YoY % Change**.
-
-3) **Sales by State (Map)**  
-State-level sales visualization to identify strong and weak geographic markets.
-
-4) **Top & Bottom Products**  
-Top 5 and Bottom 5 products by YTD Sales to support product prioritization decisions.
-
-5) **Regional Contribution**  
-Region-wise YTD sales and percentage contribution to identify strongest and weakest regions.
-
-6) **Shipping Type Analysis**  
-YTD Sales by shipping mode with % contribution to understand shipping preferences and operational impact.
+- **KPI Summary + Trend:** Quick view of business health with YoY indicators and monthly performance trend  
+- **Category Performance:** Category-wise comparison using **YTD vs PYTD** and **YoY % Change**  
+- **Sales by State (Map):** State-level sales visualization to identify strong and weak geographic markets  
+- **Top & Bottom Products:** Top 5 and Bottom 5 products by YTD Sales to support product prioritization decisions  
+- **Regional Contribution:** Region-wise YTD sales and percentage contribution to identify strongest and weakest regions  
+- **Shipping Type Analysis:** YTD Sales by shipping mode with % contribution to understand shipping preferences and operational impact  
 
 
 ## Insights (From Dashboard)
