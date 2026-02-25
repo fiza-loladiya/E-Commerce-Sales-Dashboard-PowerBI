@@ -16,7 +16,7 @@ This dashboard tracks **YTD vs PYTD** performance and highlights **YoY trends**,
 - **YTD Quantity:** 107.2K (YoY: -7.29%)
 - **YTD Profit Margin:** 11.58% (YoY: +5.37%)
 
----
+
 
 ## Problem Statement
 A US-based e-commerce company needed a single interactive dashboard to:
@@ -37,7 +37,6 @@ The dashboard was designed to answer these core questions:
 - Which **Region** is strongest/weakest by sales contribution?
 - Which **Shipping Type** contributes the most to sales?
 
----
 
 ## Data & Tools Used
 ### Data Source
@@ -49,7 +48,6 @@ The dashboard was designed to answer these core questions:
 - **DAX** (measures + time intelligence)
 - **Data Modeling** (relationships + date table)
 
----
 
 ## Approach (End-to-End Workflow)
 1. Imported and stored data in **MS SQL Server**
@@ -73,7 +71,7 @@ The dashboard was designed to answer these core questions:
    - Shipping type breakdown
    - Top/Bottom products visuals
 
----
+
 
 ## Key KPIs (Implemented)
 - YTD Sales
@@ -84,7 +82,6 @@ The dashboard was designed to answer these core questions:
 - YoY % Change for each KPI
 - Monthly Trend (sparkline-style trend visualization)
 
----
 
 ## Dashboard Features
 1) **KPI Summary + Trend**  
@@ -105,7 +102,6 @@ Region-wise YTD sales and percentage contribution to identify strongest and weak
 6) **Shipping Type Analysis**  
 YTD Sales by shipping mode with % contribution to understand shipping preferences and operational impact.
 
----
 
 ## Insights (From Dashboard)
 - Sales are slightly down YoY, but profit and profit margin improved, showing better profitability.
@@ -119,7 +115,6 @@ YTD Sales by shipping mode with % contribution to understand shipping preference
 - Investigate **quantity decline** drivers (pricing, product mix, or demand shift) and address with targeted campaigns.
 - Optimize **Standard Class shipping** since it contributes the highest share of sales.
 
----
 
 ## How to Use
 - Use the **Segment** buttons (Consumer / Corporate / Home Office) to filter analysis.
