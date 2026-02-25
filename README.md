@@ -6,7 +6,7 @@ The dashboard helps stakeholders track **Year-To-Date (YTD)** performance, compa
 
 ## Dashboard Overview
 
-![Overview](overview.png)
+![Overview](Overview.png)
 
 ## Problem Statement
 A US-based e-commerce company needed a single interactive dashboard to:
