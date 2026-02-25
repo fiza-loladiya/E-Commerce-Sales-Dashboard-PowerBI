@@ -8,7 +8,7 @@ The dashboard helps stakeholders track **Year-To-Date (YTD)** performance, compa
 This dashboard tracks **YTD vs PYTD** performance and highlights **YoY trends**, enabling stakeholders to identify profit/margin changes, category winners/losers, regional performance, and shipping contribution for faster decisions.
 
 ## Dashboard Overview
-![E-Commerce Sales Dashboard](overview.png)
+![E-Commerce Sales Dashboard](Overview.png)
 
 ### Key Business Snapshot (from dashboard)
 - **YTD Sales:** $11.53M (YoY: -0.83%)
