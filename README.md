@@ -4,9 +4,10 @@
 This project is an end-to-end **E-Commerce Sales Dashboard** built in **Power BI** using data stored in **MS SQL Server**.  
 The dashboard helps stakeholders track **Year-To-Date (YTD)** performance, compare it with **Previous Year-To-Date (PYTD)**, and identify trends across **categories, regions, states, products, and shipping types**.
 
-## Dashboard Overview
+## Overview
 
 ![Overview](Overview.png)
+
 
 ## Problem Statement
 A US-based e-commerce company needed a single interactive dashboard to:
@@ -104,6 +105,15 @@ Region-wise YTD sales and percentage contribution to quickly identify:
 ### 6) Shipping Type Analysis
 YTD Sales by shipping mode with % contribution to understand shipping preferences and operational impact.
 
+### Quick Summary
+This dashboard tracks **YTD vs PYTD** performance and highlights **YoY trends**, enabling stakeholders to identify profit/margin changes, category winners/losers, regional performance, and shipping contribution for faster decisions.
+
+### Key Business Snapshot (from dashboard)
+- **YTD Sales:** $11.53M (YoY: -0.83%)
+- **YTD Profit:** $1.34M (YoY: +4.50%)
+- **YTD Quantity:** 107.2K (YoY: -7.29%)
+- **YTD Profit Margin:** 11.58% (YoY: +5.37%)
+
 
 ## Insights (From Dashboard)
 - **Sales are slightly down YoY**, but **profit and profit margin improved**, showing better profitability.
@@ -112,6 +122,10 @@ YTD Sales by shipping mode with % contribution to understand shipping preference
 - **West region contributes the most**, while **South region contributes the least**, highlighting expansion opportunity.
 - **Standard Class dominates shipping share**, so improving this mode can create the biggest operational ROI.
 
+### Recommendations
+- Focus on improving **South region** performance by replicating high-performing region strategies.
+- Investigate **quantity decline** drivers (pricing, product mix, or demand shift) and address with targeted campaigns.
+- Optimize **Standard Class shipping** since it contributes the highest share of sales.
 
 ## How to Use
 - Use the **Segment** buttons (Consumer / Corporate / Home Office) to filter analysis.
