@@ -1,4 +1,4 @@
-# E-Commerce Sales Dashboard (Power BI | MS SQL Server)
+# E-Commerce Sales Dashboard (Power BI | MS SQL Server) 
 
 ## Overview
 This project is an end-to-end **E-Commerce Sales Dashboard** built in **Power BI** using data stored in **MS SQL Server**.  
